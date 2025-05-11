@@ -1,0 +1,39 @@
+{
+  "@context": "https://mlcommons.org/croissant/context/v1",
+  "@type": "Dataset",
+  "name": "StatLog (German Credit) Data",
+  "description": "The StatLog German Credit dataset contains ...",
+  "url": "https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data",
+  "license": "CC0-1.0",
+  "datePublished": "1994-07-01",
+  "keywords": [
+    "credit scoring",
+    "loan approval",
+    "binary classification",
+    "explainable AI",
+    "finance",
+    "UCI repository"
+  ],
+  "authors": [
+    {
+      "name": "UCI Machine Learning Repository",
+      "affiliation": "University of California, Irvine"
+    }
+  ],
+  "resources": [
+    {
+      "@type": "DataDownload",
+      "name": "german.data",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data",
+      "encodingFormat": "text/plain",
+      "description": "Primary data file with 1,000 instances and 20 attributes plus label."
+    },
+    {
+      "@type": "DataDownload",
+      "name": "german.doc",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.doc",
+      "encodingFormat": "text/plain",
+      "description": "Attribute definitions and documentation."
+    }
+  ]
+}
